@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Miyu\Documents\Visual Studio 2022\EE Emerge\EEE\Board.h(398,38): warning C4101: 'e': unreferenced local variable
+C:\Users\Miyu\Documents\Visual Studio 2022\EE Emerge\EEE\main.cpp(8,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  EEE.vcxproj -> C:\Users\Miyu\Documents\Visual Studio 2022\EE Emerge\x64\Debug\EEE.exe
