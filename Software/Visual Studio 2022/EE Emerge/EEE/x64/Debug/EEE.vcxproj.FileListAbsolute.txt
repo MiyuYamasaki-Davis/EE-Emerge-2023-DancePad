@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\EEE\EEE\x64\Debug\EEE.vcxproj.AssemblyReference.cache
+C:\Users\User\source\repos\EEE\EEE\x64\Debug\EEE.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\EEE\EEE\x64\Debug\EEE.board.resources
+C:\Users\User\source\repos\EEE\EEE\x64\Debug\EEE.vcxproj.GenerateResource.cache
+C:\Users\Miyu\Documents\Visual Studio 2022\EE Emerge\EEE\x64\Debug\EEE.vcxproj.AssemblyReference.cache
+C:\Users\Miyu\Documents\Visual Studio 2022\EE Emerge\EEE\x64\Debug\EEE.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Miyu\Documents\Visual Studio 2022\EE Emerge\EEE\x64\Debug\EEE.board.resources
+C:\Users\Miyu\Documents\Visual Studio 2022\EE Emerge\EEE\x64\Debug\EEE.vcxproj.GenerateResource.cache
