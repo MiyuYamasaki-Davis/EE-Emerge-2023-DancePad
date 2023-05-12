@@ -1,5 +1,80 @@
 # Dance Pad
-Intro
-Maze Game, inspired by the popular arcade game Dance Dance Revolution, or commonly abbreviated as DDR, is an interactive game that challenges the user to think on the fly and tests their cognitive capabilities. The basic premise of the game is to navigate randomized mazes with the use of four pressure pads, indicating the direction of which the user can move: forward, back, left and right. The user simply has 30 seconds to complete as many mazes as they can and can compete their skills against other friends and competitors for a spot on the record leaderboard.
-About the Project
-Maze Game is a project developed during the 2022/2023 academic year by the undergraduates from EE-Emerge, a project based class at the University of California Davis, designed to allow students to use what they’ve learned from previous engineering classes to collaborate with other engineering students to create an electrical engineering based project based on a a yearly theme. Maze Game is an interactive game where the user is challenged to navigate through as many mazes as they can with the use of a 4 direction pressure pad. The user can either move forward, back, left and right and has to complete as many mazes possible in the allocated 30 seconds. At the core of the Maze Game’s technology, our EE-Emerge team had designed and fabricated custom PCBs which have been implemented within the pressure pad housing, also to which has been designed, laser cut, built, and colored for aesthetic purposes. The PCBs have a basic function of detecting when the pressure pad is being pressed on by a simple check from open to short circuit using a wire and a dielectric sheet. The analog to digital data is constantly being looped in order to detect when someone is pressing down any of the 4 pads.  The randomized mazes were created through the software of the game which at the base, utilizes minimum spanning trees to generate randomized mazes with a minimum of 3 spaces in between the users starting point and the designated end point where the user is trying to navigate to.
+
+[Dance Pad](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad) is a game project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project allows a user to play a game in which they must navigate a maze by using a 4-directional pressure pad controller we built ourselves.
+
+## Table of Contents
+
+
+1. [About the Project](#about-the-project)
+2. [Project Status](#project-status)
+3. [Getting Started](#getting-started)
+    1. [Dependencies](#dependencies)
+    1. [Building](#building)
+4. [How to Get Help](#how-to-get-help)
+5. [Further Reading](#further-reading)
+6. [Authors](#authors)
+7. [Acknowledgements](#acknowledgements)
+
+# About the Project
+
+
+
+# Project Status
+
+
+
+# Getting Started
+
+This repository can be downloaded [here](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad/archive/master.zip), or cloned by:
+```
+git clone https://github.com/EE-Emerge/EE-Emerge-2023-DancePad
+```
+
+## Dependencies
+
+#### Software
+[Visual Studio](https://)  
+
+
+[Arduino IDE](https://)  
+The OpenMV IDE is used for all of the programming of the H7 Camera.
+
+#### Hardware & Model Creation
+[Altium](https://www.altium.com/) was used for most PCB creation.  
+[Eagle](https://www.autodesk.com/products/eagle/overview) was used to make the CameraPCB.  
+[Fusion 360](https://www.autodesk.com/products/fusion-360/overview) was used for the creation of enclosures and other mechanical files.  
+[Cura](https://ultimaker.com/software/ultimaker-cura) was used as our main slicer for 3D printing. The UC Davis ESDC's Ultimaker's and personal Ender 3 Pro's were used for fabrication.  
+
+## Building
+
+PCB and enclosure files will be located in their respective subdirectories. These were fabricated either with a 3D printer, a laser cutter, or table saw.
+
+Software for the instruments will have to be compiled and loaded into their respective MCU's either in the Puredata IDE or Energia.
+
+# How to Get Help
+
+You can request any changes by making a [pull request](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/pulls) or opening an issue.
+
+# Further Reading
+* [Airdrum](https://hackaday.com/2019/11/15/finally-your-air-drumming-has-an-outlet/)
+* [Foot Piano](https://www.instructables.com/id/Build-a-Big-Piano/)
+
+# Authors
+
+* [Benjamin Moore](https://github.com/mooreben34)
+* [Conrad Rowling](https://github.com/Conrad-Rowling)
+* [Neil Katahira](https://github.com/neilkatahira)
+* [Jocelyn Park](https://github.com/spectivePer)
+* [Isabelle Asistin](https://github.com/ijasistin)
+* [Varsha Senthil](https://github.com/varshaaaaa)
+* [Tyler Kelley](https://github.com/tfkelley)
+* [Ryan Ma](https://github.com/RyanMa1)
+* [Devon Liu](https://github.com/dvnliu)
+* [Sean Alling](https://www.ece.ucdavis.edu/blog/alling-sean/)
+* [Professor Andre Knoesen](https://faculty.engineering.ucdavis.edu/knoesen/)
+
+# Acknowledgments
+
+Thanks to Texas Instruments for sponsoring EE-Emerge, along with Sean Alling and Dr. Andre Knoesen. We would not have gotten this far without their help and support.
+
+Huge shout out to Alessandro Verdiesen and Luuk van Kuijk with the original idea and inspiration of the [Airdrum](https://hackaday.com/2019/11/15/finally-your-air-drumming-has-an-outlet/) and the whole project.
