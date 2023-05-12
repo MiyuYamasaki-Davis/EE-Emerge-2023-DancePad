@@ -1,6 +1,6 @@
-# Dance Pad
+# Dance Pad Maze Game
 
-[Dance Pad](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad) is a game project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project allows a user to play a game in which they must navigate a maze by using a 4-directional pressure pad controller we built ourselves.
+[Dance Pad Maze Game](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad) is a game project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project allows a user to play a game in which they must navigate a maze by using a 4-directional pressure pad controller we built ourselves.
 
 ## Table of Contents
 
@@ -17,11 +17,13 @@
 
 # About the Project
 
-
+Maze Game, inspired by the popular arcade game Dance Dance Revolution, or commonly abbreviated as DDR, is an interactive game that challenges the user to think on the fly and tests their cognitive capabilities. The basic premise of the game is to navigate randomized mazes with the use of four pressure pads, indicating the direction of which the user can move: forward, back, left and right. The user simply has 30 seconds to complete as many mazes as they can and can compete their skills against other friends and competitors for a spot on the record leaderboard.
 
 # Project Status
 
-
+Modifications to Pressure Plates
+Restructuring of Enclosure
+Redesign of PCB
 
 # Getting Started
 
