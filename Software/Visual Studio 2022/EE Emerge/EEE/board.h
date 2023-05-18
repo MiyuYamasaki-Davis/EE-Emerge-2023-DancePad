@@ -47,7 +47,7 @@ namespace EEE {
 			System::Windows::Forms::PictureBox^ boardOutline;
 			System::Windows::Forms::Button^ start;
 			System::Windows::Forms::TextBox^ scoreBox;
-			System::IO::Ports::SerialPort^ sp = gcnew SerialPort();;
+			System::IO::Ports::SerialPort^ sp = gcnew SerialPort();
 			array<int, 2>^ connections = gcnew array<int, 2>(2, vertices);
 			System::Windows::Forms::Timer^ timer1;
 			System::Windows::Forms::TextBox^ scoreTitle;
@@ -61,7 +61,8 @@ namespace EEE {
 			Brush^ whiteBrush = gcnew Drawing::SolidBrush(Color::White);
 			Brush^ redBrush = gcnew Drawing::SolidBrush(Color::Red);
 			Brush^ greenBrush = gcnew Drawing::SolidBrush(Color::Green);
-			array<int, 2>^ graph;
+
+		   array<int, 2>^ graph;
 			array<int>^ parent;
 			array<int>^ key;
 			array<bool>^ mstSet;
@@ -220,18 +221,29 @@ namespace EEE {
 			timerBox->Text = "30";
 			started = false;
 		}
-		private: System::Void start_Click(System::Object^ sender, System::EventArgs^ e)
-			//Starts game
-			//Inputs: this object and event handler
-			//Outputs: none
-		{ 
+	private: System::Void start_Click(System::Object^ sender, System::EventArgs^ e)
+		//Starts game
+		//Inputs: this object and event handler
+		//Outputs: none
+		{
 			//Resets countdown and start variable and timer if fresh game
 			if (score == 0 && !started) {
-				countdown = 330;
+				countdown = 309;
 				started = true;
 			}
 			timer1->Enabled = true;
-			
+
+			//Countdown to start
+			g->DrawString("3", f, blackBrush, 235, 235);
+			Threading::Thread::Sleep(1000);
+			g->Clear(Color::White);
+			g->DrawString("2", f, blackBrush, 235, 235);
+			Threading::Thread::Sleep(1000);
+			g->Clear(Color::White);
+			g->DrawString("1", f, blackBrush, 235, 235);
+			Threading::Thread::Sleep(1000);
+			g->Clear(Color::White);
+
 			//Draws initial squares
 			for (int i = 0; i < 500; i += 100)
 			{
@@ -259,42 +271,42 @@ namespace EEE {
 				{
 					//Bottom neighbor
 					num = randNum->Next(0, 100);
-					graph[i,i + 5] = num;
-					graph[i + 5,i] = num;
+					graph[i, i + 5] = num;
+					graph[i + 5, i] = num;
 					if (i < 4) //If not rightmost node
 					{
 						//Right neighbor
 						num = randNum->Next(0, 100);
-						graph[i,i + 1] = num;
-						graph[i + 1,i] = num;
+						graph[i, i + 1] = num;
+						graph[i + 1, i] = num;
 					}
 					if (i > 0) //If not leftmost node
 					{
 						//Left neighbor
 						num = randNum->Next(0, 100);
-						graph[i,i - 1] = num;
-						graph[i - 1,i] = num;
+						graph[i, i - 1] = num;
+						graph[i - 1, i] = num;
 					}
 				}
 				else if (i > 19) //If node is within the bottom row
 				{
 					//Top neighbor
 					num = randNum->Next(0, 100);
-					graph[i,i - 5] = num;
-					graph[i - 5,i] = num;
+					graph[i, i - 5] = num;
+					graph[i - 5, i] = num;
 					if (i < 24)
 					{
 						//Right neighbor
 						num = randNum->Next(0, 100);
-						graph[i,i + 1] = num;
-						graph[i + 1,i] = num;
+						graph[i, i + 1] = num;
+						graph[i + 1, i] = num;
 					}
 					if (i > 20)
 					{
 						//Left neighbor
 						num = randNum->Next(0, 100);
-						graph[i,i - 1] = num;
-						graph[i - 1,i] = num;
+						graph[i, i - 1] = num;
+						graph[i - 1, i] = num;
 					}
 				}
 				else //If located within middle 3 rows
@@ -303,68 +315,68 @@ namespace EEE {
 					{
 						//Right neighbor
 						num = randNum->Next(0, 100);
-						graph[i,i + 1] = num;
-						graph[i + 1,i] = num;
+						graph[i, i + 1] = num;
+						graph[i + 1, i] = num;
 					}
 					else if ((i - 4) % 5 == 0) //If rightmost node
 					{
 						//Left neighbor
 						num = randNum->Next(0, 100);
-						graph[i,i - 1] = num;
-						graph[i - 1,i] = num;
+						graph[i, i - 1] = num;
+						graph[i - 1, i] = num;
 					}
 					else //If in middle 3 nodes
 					{
 						//Right neighbor
 						num = randNum->Next(0, 100);
-						graph[i,i + 1] = num;
-						graph[i + 1,i] = num;
+						graph[i, i + 1] = num;
+						graph[i + 1, i] = num;
 						//Left neighbor
 						num = randNum->Next(0, 100);
-						graph[i,i - 1] = num;
-						graph[i - 1,i] = num;
+						graph[i, i - 1] = num;
+						graph[i - 1, i] = num;
 					}
 					//Bottom neighbor
 					num = randNum->Next(0, 100);
-					graph[i,i + 5] = num;
-					graph[i + 5,i] = num;
+					graph[i, i + 5] = num;
+					graph[i + 5, i] = num;
 					//Top neighbor
 					num = randNum->Next(0, 100);
-					graph[i,i - 5] = num;
-					graph[i - 5,i] = num;
+					graph[i, i - 5] = num;
+					graph[i - 5, i] = num;
 				}
 			}
 			//Run MST algorithm with given weights array
 			this->primMST(graph);
-			
+
 			//Establish and draw start point and end point
 			num = randNum->Next(0, 4);
 			switch (num)
 			{
-				case 0: //Start in top left
-					xPos = 25;
-					yPos = 25;
-					goalXPos = 425;
-					goalYPos = 425;
-					break;
-				case 1: //Start in top right
-					xPos = 425;
-					yPos = 25;
-					goalXPos = 25;
-					goalYPos = 425;
-					break;
-				case 2: //Start in bottom left
-					xPos = 25;
-					yPos = 425;
-					goalXPos = 425;
-					goalYPos = 25;
-					break;
-				case 3: //Start in bottom right
-					xPos = 425;
-					yPos = 425;
-					goalXPos = 25;
-					goalYPos = 25;
-					break;
+			case 0: //Start in top left
+				xPos = 25;
+				yPos = 25;
+				goalXPos = 425;
+				goalYPos = 425;
+				break;
+			case 1: //Start in top right
+				xPos = 425;
+				yPos = 25;
+				goalXPos = 25;
+				goalYPos = 425;
+				break;
+			case 2: //Start in bottom left
+				xPos = 25;
+				yPos = 425;
+				goalXPos = 425;
+				goalYPos = 25;
+				break;
+			case 3: //Start in bottom right
+				xPos = 425;
+				yPos = 425;
+				goalXPos = 25;
+				goalYPos = 25;
+				break;
 			}
 			g->DrawImage(picPlayer, xPos, yPos, 50, 50);
 			g->DrawImage(picGoal, goalXPos, goalYPos, 50, 50);
@@ -472,26 +484,6 @@ namespace EEE {
 			//Reduce countdown timer
 			countdown--;
 			timerBox->Text = "" + (countdown / 10);
-
-			//Countdown to start
-			if (countdown == 330)
-			{
-
-				g->DrawString("3", f, blackBrush, 235, 235);
-				g->Clear(Color::White);
-			}
-			else if (countdown == 320)
-			{
-
-				g->DrawString("2", f, blackBrush, 235, 235);
-				g->Clear(Color::White);
-			}
-			else if (countdown == 310)
-			{
-
-				g->DrawString("1", f, blackBrush, 235, 235);
-				g->Clear(Color::White);
-			}
 
 			//As long as game is running still
 			if (countdown != 0) 
