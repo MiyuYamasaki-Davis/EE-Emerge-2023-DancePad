@@ -8,7 +8,7 @@ Visual Studio 2022 is an open source IDE that allows utilization of C++/CLI to d
 Arduino IDE is the coding source for the Arduino Uno board used to fascilitate Analog-to-Digital Conversion for communication between the PCB and computer.
 
 ## Minimium Spanning Tree Algorithm Flowchart
-![MST](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/master/pictures/Software/MST.PNG?raw=true)
+![MST](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/pictures/Software/MST(1).png?raw=true)
 
 ## Timer Loop Flowchart
-![Timer](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/master/pictures/Software/Timer.PNG?raw=true)
+![Timer](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/pictures/Software/Timer.png?raw=true)
