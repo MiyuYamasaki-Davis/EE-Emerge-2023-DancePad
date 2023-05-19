@@ -1,74 +1,7 @@
 # Dance Pad Maze Game
 
-[Dance Pad Maze Game](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad) is a game project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project allows a user to play a game in which they must navigate a maze by using a 4-directional pressure pad controller we built ourselves.
-
-## Table of Contents
-
-1. [About the Project](#about-the-project)
-2. [Project Status](#project-status)
-3. [Getting Started](#getting-started)
-    1. [Dependencies](#dependencies)
-    1. [Building](#building)
-4. [How to Get Help](#how-to-get-help)
-5. [Further Reading](#further-reading)
-6. [Authors](#authors)
-7. [Acknowledgements](#acknowledgements)
+[Dance Pad Maze Game](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad) is a game project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. Dance Pad Maze Game, inspired by the popular arcade game Dance Dance Revolution, or commonly abbreviated as DDR, is an interactive game that challenges the user to think on the fly and tests their cognitive capabilities. The basic premise of the game is to navigate randomized mazes with the use of four pressure pads, indicating the direction of which the user can move: forward, back, left and right. The user simply has 30 seconds to complete as many mazes as they can and can compete their skills against other friends and competitors for a spot on the record leaderboard.
 
 # About the Project
 
-Maze Game, inspired by the popular arcade game Dance Dance Revolution, or commonly abbreviated as DDR, is an interactive game that challenges the user to think on the fly and tests their cognitive capabilities. The basic premise of the game is to navigate randomized mazes with the use of four pressure pads, indicating the direction of which the user can move: forward, back, left and right. The user simply has 30 seconds to complete as many mazes as they can and can compete their skills against other friends and competitors for a spot on the record leaderboard.
-
-# Project Status
-
-Modifications to Pressure Plates
-Restructuring of Enclosure
-Redesign of PCB
-
-# Getting Started
-
-This repository can be downloaded [here](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad/archive/master.zip), or cloned by:
-```
-git clone https://github.com/EE-Emerge/EE-Emerge-2023-DancePad
-```
-
-## Dependencies
-
-#### Software
-[Visual Studio](https://visualstudio.microsoft.com/vs/) was our main program we used to run the game and algorithm.
-
-[Arduino IDE](https://www.arduino.cc/en/software) was used to be able to facilitate communicate between our circuit and the computer.
-
-#### Hardware & Model Creation
-[Altium](https://www.altium.com/) was used for most PCB creation.  
-[Fusion 360](https://www.autodesk.com/products/fusion-360/overview) was used for the creation of enclosures and other mechanical files.  
-
-## Building
-
-PCB and enclosure files will be located in respective subdirectories. These were fabricated either with a 3D printer, a laser cutter, or table saw.
-
-Software will have to be compiled and loaded into Visual Studio 2022 and Arduino IDE respectively.
-
-# How to Get Help
-
-You can request any changes by making a [pull request](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad/pulls) or opening an issue.
-
-# Further Reading
-
-* [MST Algorithm](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
-
-# Authors
-
-* [Grant Yamaguchi](https://github.com/MiyuYamasaki-Davis)
-* [Liana Goldstein](https://)
-* [Ricky](https://)
-* [RJ](https://)
-* [Rameen](https://)
-* [Gabe](https://)
-* [Cesar Luna](https://)
-* [Rayyan](https://)
-* [Sean Alling](https://www.ece.ucdavis.edu/blog/alling-sean/)
-* [Professor Andre Knoesen](https://faculty.engineering.ucdavis.edu/knoesen/)
-
-# Acknowledgments
-
-Thanks to Texas Instruments for sponsoring EE-Emerge, along with Sean Alling and Dr. Andre Knoesen. We would not have gotten this far without their help and support.
+Maze Game is a project developed during the 2022/2023 academic year by the undergraduates from EE-Emerge, a project based class at the University of California Davis, designed to allow students to use what they’ve learned from previous engineering classes to collaborate with other engineering students to create an electrical engineering based project based on a a yearly theme. Maze Game is an interactive game where the user is challenged to navigate through as many mazes as they can with the use of a 4 direction pressure pad. The user can either move forward, back, left and right and has to complete as many mazes possible in the allocated 30 seconds. At the core of the Maze Game’s technology, our EE-Emerge team had designed and fabricated custom PCBs which have been implemented within the pressure pad housing, also to which has been designed, laser cut, built, and colored for aesthetic purposes. The PCBs have a basic function of detecting when the pressure pad is being pressed on by a simple check from open to short circuit using a wire and a dielectric sheet. The analog to digital data is constantly being looped in order to detect when someone is pressing down any of the 4 pads.  The randomized mazes were created through the software of the game which at the base, utilizes minimum spanning trees to generate randomized mazes with a minimum of 3 spaces in between the users starting point and the designated end point where the user is trying to navigate to.
