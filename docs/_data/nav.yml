@@ -4,25 +4,23 @@
 - title: Team
   url: /team.md
   
-- title: Components
-  url: /components.md
-  sublinks:
-    - title: DrumPad
-      url: /drumpad.md
-    - title: CameraVision
-      url: /computervision.md
-    - title: FootPad
-      url: /footpad.md
-    - title: Bela + Software
-      url: /software.md
+- title: Hardware Design
+  url: /hardware.md
+ 
+- title: Software Design
+  url: /software.md
+  
+- title: Mechanical Design
+  url: /mechanical.md
+  
+- title: Acknoledgements
+  url: /acknowledgements.md
   
 - title: Other Links
   url: /store.html
   sublinks:
     - title: View on GitHub
-      url: 
-    - title: View on Hackster.io
-      url:
+      url: https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad
     - title: Download .zip
       url:
  
