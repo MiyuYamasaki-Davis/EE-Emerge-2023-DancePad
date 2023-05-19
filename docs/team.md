@@ -8,5 +8,5 @@
 |**Ramon Lamamigo Padilla Jr.** <br/> **Hardware Assembly** <br/> B.S. Electrical Engineering 2024 <br/> Focus: RF/Electromagnetics <br/> [LinkedIn](https://www.linkedin.com/in/rj-padilla-9519b3199/) & [GitHub](https://github.com/) |  |
 |**Rameen ** <br/> **Encasement Design** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) |  |
 |**Gabe ** <br/> **Encasement Design** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) |  |
-|**Cesar Luna** <br/> **Various Roles** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) |  |
+|**Cesar Luna** <br/> **Various Roles** <br/> B.S. Electrical Engineering 2024 <br/> Focus: N/A <br/> [LinkedIn](https://www.linkedin.com/in/cesar-luna-321a45222) & [GitHub](https://github.com/Cesar-A-Luna) |  |
 |**Rayyan Islam** <br/> **Various Roles** <br/> B.S. Electrical Engineering 2024 <br/> Focus: RF Design <br/> [LinkedIn](https://www.linkedin.com/in/rayyislam/) | <img src="/pictures/Team/rayyan.jpeg?raw = true" height="300"> |
