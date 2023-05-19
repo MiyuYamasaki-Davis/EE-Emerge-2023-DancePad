@@ -3,10 +3,10 @@
 | | |
 |:---------------------------------------------------------:|:---------------------------------------------------:|
 |**Grant Yamaguchi** <br/> **Team Leader / Lead Programmer** <br/> B.S. Computer Engineering 2024 <br/> Focus: C++, Python <br/> [LinkedIn](www.linkedin.com/in/grant-j-m-yamaguchi) & [GitHub](https://github.com/MiyuYamasaki-Davis) | ![Grant](https://) |
-|**Liana Pruyn Goldstein** <br/> **Team Leader** <br/> B.S. Computer Engineering 2024 <br/> Focus: General Software <br/> [LinkedIn](https://www.linkedin.com/in/liana-pruyn-goldstein-94a753207/) | ![Liana](https://https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/master/pictures/Team/liana.jpg?raw=true) |
+|**Liana Pruyn Goldstein** <br/> **Team Leader** <br/> B.S. Computer Engineering 2024 <br/> Focus: General Software <br/> [LinkedIn](https://www.linkedin.com/in/liana-pruyn-goldstein-94a753207/) | ![Liana](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/tree/main/pictures/Team/liana.jpg?raw=true) |
 |**Ricky ** <br/> **Hardware Design** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) | ![Name](https://) |
 |**RJ ** <br/> **Hardware Assembly** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) | ![Name](https://) |
 |**Rameen ** <br/> **Encasement Design** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) | ![Name](https://) |
 |**Gabe ** <br/> **Encasement Design** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) | ![Name](https://) |
 |**Cesar Luna** <br/> **Various Roles** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) | ![Name](https://) |
-|**Rayyan Islam** <br/> **Various Roles** <br/> B.S. Electrical Engineering 2024 <br/> Focus: RF Design <br/> [LinkedIn](https://www.linkedin.com/in/rayyislam/) | ![Rayyan](https://https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/master/pictures/Team/rayyan.jpeg?raw=true) |
+|**Rayyan Islam** <br/> **Various Roles** <br/> B.S. Electrical Engineering 2024 <br/> Focus: RF Design <br/> [LinkedIn](https://www.linkedin.com/in/rayyislam/) | ![Rayyan](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/tree/main/pictures/Team/rayyan.jpeg?raw=true) |
