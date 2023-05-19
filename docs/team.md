@@ -2,7 +2,7 @@
 
 | | |
 |:---------------------------------------------------------:|:---------------------------------------------------:|
-|**Grant Yamaguchi** <br/> **Team Leader / Lead Programmer** <br/> B.S. Computer Engineering 2024 <br/> Focus: C++, Python <br/> [LinkedIn](www.linkedin.com/in/grant-j-m-yamaguchi) & [GitHub](https://github.com/MiyuYamasaki-Davis) | <img src="https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/pictures/Team/.jpg?raw = true" height="300"> |
+|**Grant Yamaguchi** <br/> **Team Leader / Lead Programmer** <br/> B.S. Computer Engineering 2024 <br/> Focus: C++, Python <br/> [LinkedIn](www.linkedin.com/in/grant-j-m-yamaguchi) & [GitHub](https://github.com/MiyuYamasaki-Davis) | <img src="https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/pictures/Team/.jpg?raw = true" height="300"> | 
 |**Liana Pruyn Goldstein** <br/> **Team Leader** <br/> B.S. Computer Engineering 2024 <br/> Focus: General Software <br/> [LinkedIn](https://www.linkedin.com/in/liana-pruyn-goldstein-94a753207/) | <img src="https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/pictures/Team/liana.jpg?raw = true" height="300"> |
 |**Ricky ** <br/> **Hardware Design** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) | <img src="https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/pictures/Team/.jpg?raw = true" height="300"> |
 |**RJ ** <br/> **Hardware Assembly** <br/> B.S. Major 2024 <br/> Focus: Focus <br/> [LinkedIn](www.linkedin.com/in/) & [GitHub](https://github.com/) | <img src="https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/pictures/Team/.jpg?raw = true" height="300"> |
