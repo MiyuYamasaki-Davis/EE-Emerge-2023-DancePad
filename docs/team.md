@@ -7,6 +7,6 @@
 |**Ricardo Viramontes** <br/> **Hardware Design** <br/> B.S. Electrical Engineering 2024 <br/> Focus: PCB Design <br/> |  |
 |**Ramon Lamamigo Padilla Jr.** <br/> **Hardware Assembly** <br/> B.S. Electrical Engineering 2024 <br/> Focus: RF/Electromagnetics <br/> [LinkedIn](https://www.linkedin.com/in/rj-padilla-9519b3199/) & [GitHub](https://github.com/rjpadilla) |  |
 |**Gabriel Ceja** <br/> **Encasement & Hardware Design** <br/> B.S. Electrical Engineering 2024 <br/> Focus: Analog Design <br/> [LinkedIn](www.linkedin.com/in/gabrielceja) & [GitHub](https://github.com/gabrielceja) |  |
-|**Rameen Khan** <br/> **Encasement Design** <br/> B.S. Electrical Engineering 2024 <br/> Focus: Various <br/> [LinkedIn](https://www.linkedin.com/in/rameen-a-khan) & [GitHub](https://github.com/rameeeeenkhan) |  |
+|**Rameen Khan** <br/> **Encasement Design** <br/> B.S. Electrical Engineering 2024 <br/> Focus: N/A <br/> [LinkedIn](https://www.linkedin.com/in/rameen-a-khan) & [GitHub](https://github.com/rameeeeenkhan) |  |
 |**Cesar Luna** <br/> **Various Roles** <br/> B.S. Electrical Engineering 2024 <br/> Focus: N/A <br/> [LinkedIn](https://www.linkedin.com/in/cesar-luna-321a45222) & [GitHub](https://github.com/Cesar-A-Luna) |  |
 |**Rayyan Islam** <br/> **Various Roles** <br/> B.S. Electrical Engineering 2024 <br/> Focus: RF Design <br/> [LinkedIn](https://www.linkedin.com/in/rayyislam/) | <img src="Pics/rayyan.jpeg?raw-true" height="300"> |
