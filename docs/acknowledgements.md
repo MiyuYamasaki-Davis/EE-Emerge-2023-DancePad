@@ -2,6 +2,6 @@
 
 Thank you to Texas Instruments for sponsoring EE-Emerge.  
 
-Thank you to James and the pressure pad team for meeting with us in Winter Quarter 2023 to assist with our development.
+Thank you to James, a previous EE-Emerge student who did a similar project at the beginning of our process to give us advice and assist with our idea-development.
 
-Special thanks to Sean Alling and Dr. Andre Knoesen. We would not have gotten this far without their help and support. 
+Special thanks to our Teaching Assistant Sean Alling and our Professor Dr. Andre Knoesen. We would not have gotten this far without their help and support. 
