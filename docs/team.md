@@ -1,11 +1,11 @@
 # Team
 
-<img src="Pics/team.jpg?raw=true" height="300">
+<img src="Pics/team.jpg?raw=true" height="500" width="750">
 
 | | |
 |:---------------------------------------------------------:|:---------------------------------------------------:|
 |**Grant Yamaguchi** <br/> **Team Leader / Lead Programmer** <br/> B.S. Computer Engineering 2025 <br/> Major Focus: C++, Python <br/> [LinkedIn](www.linkedin.com/in/grant-j-m-yamaguchi) & [GitHub](https://github.com/MiyuYamasaki-Davis) | <img src="Pics/grant.jpg?raw=true" height="300"> | 
-|**Liana Pruyn Goldstein** <br/> **Team Leader / Various Roles** <br/> B.S. Computer Engineering 2025 <br/> Major Focus: N/A <br/> [LinkedIn](https://www.linkedin.com/in/liana-pruyn-goldstein-94a753207/) | <img src="Pics/liana.jpg?raw=true" height="300"> |
+|**Liana Pruyn Goldstein** <br/> **Team Leader / Various Roles** <br/> B.S. Computer Engineering 2025 <br/> Major Focus: N/A <br/> [LinkedIn](https://www.linkedin.com/in/liana-pruyn-goldstein-94a753207/) | <img src="Pics/liana2.jpg?raw=true" height="300"> |
 |**Ricardo Viramontes** <br/> **Hardware Design** <br/> B.S. Electrical Engineering 2024 <br/> Major Focus: RFIC Design <br/> |  |
 |**Ramon Lamamigo Padilla Jr.** <br/> **Hardware Assembly** <br/> B.S. Electrical Engineering 2024 <br/> Major Focus: RF/Electromagnetics <br/> [LinkedIn](https://www.linkedin.com/in/rj-padilla-9519b3199/) & [GitHub](https://github.com/rjpadilla) |  |
 |**Gabriel Ceja** <br/> **Encasement & Hardware Design** <br/> B.S. Electrical Engineering 2024 <br/> Major Focus: Analog Design <br/> [LinkedIn](www.linkedin.com/in/gabrielceja) & [GitHub](https://github.com/gabrielceja) |  |
