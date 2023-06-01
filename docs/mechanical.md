@@ -2,7 +2,7 @@
 
 The directional pad encasement is made out of wood and acrylic to minimize cost and create more durability in the frame to allow for all player sizes (children, adults, etc.). 
 
-![Encasement PHOTO]()
+![Encasement](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/docs/Pics/case.jpg)
 
 The PCB and microcontroller are protected in the center square and receive inputs from each arrow square. Each arrow square contains two wood pieces with copper tape that face each other on opposing sides (top and bottom), which are connected to a designated comparator circuit in our PCB via soldered wires. The two wood pieces are separated by foam pieces placed in corners of the square, preventing contact between the copper tapes when the arrow is unpressed, and creating an open circuit. When the arrow is pressed, the foam compresses and allows contact between the copper tapes, changing the circuit from an open circuit to a closed circuit, and signaling to the comparator circuit that an arrow has been pressed.
 
