@@ -578,7 +578,7 @@ namespace EEE {
 				g->Clear(Color::White);
 				score++;
 				this->scoreBox->Text = "" + score;
-				countdown += 100;
+				countdown += 30;
 
 				//Randomizes maze again
 				start_Click(sender, e);
