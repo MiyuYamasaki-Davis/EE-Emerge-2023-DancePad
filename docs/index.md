@@ -2,7 +2,7 @@
 
 [Pressure Plate Maze Game](https://github.com/EE-Emerge/EE-Emerge-2023-DancePad) is a game project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. The Maze Game, inspired by the popular arcade game Dance Dance Revolution, or commonly abbreviated as DDR, is an interactive game that challenges the user to think on the fly and test their cognitive capabilities. The premise of the game is to navigate randomized mazes with the use of four pressure pads, indicating the direction of which the user can move: forward, back, left and right. The user simply has 30 seconds to complete as many mazes as they can and can compare their scores against other friends and competitors for a spot on the record leaderboard.
 
-![Poster](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/docs/Pics/poster.PNG)
+<img src="Pics/poster.PNG?raw-true" height="600">
 
 # About the Project
 
