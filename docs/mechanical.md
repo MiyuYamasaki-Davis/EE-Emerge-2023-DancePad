@@ -1,8 +1,6 @@
 # Encasement and Mechanical Design
 
-The directional pad encasement is made out of wood and acrylic to minimize cost and create more durability in the frame to allow for all player sizes (children, adults, etc.). The design is custom-made, with areas for wires to go between sections, output to a computer outside the board, and allow for proper compresion of each arrow plate.
-
-![Encasement](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/docs/Pics/case.jpg?raw=true)
+The directional pad encasement is made out of wood and acrylic to minimize cost and create more durability in the frame to allow for all player sizes (children, adults, etc.). The board is was designed in Fusion 360 and custom-made by the team, with areas for wires to go between sections, output to a computer outside the board, and allow for proper compresion of each arrow plate.
 
 ![Painted Encasement](https://github.com/MiyuYamasaki-Davis/EE-Emerge-2023-DancePad/blob/main/pictures/Encasement/IMG_6620 2.JPG?raw=true)
 
